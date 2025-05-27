@@ -1,0 +1,36 @@
+# Ignore the target directory (compiled files)
+target/
+
+# Ignore Cargo.lock if this is a library (optional)
+# Cargo.lock
+
+# Ignore debug and release builds
+debug/
+release/
+
+# Ignore IDE/editor settings
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.log
+
+# Ignore binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.rlib
+
+# VSCode settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Node dependencies (if applicable)
+node_modules/
